@@ -11,7 +11,7 @@ public class FirstTest {
     @BeforeMethod
     public void precondition(){
         wd =new ChromeDriver();
-        wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/login");
+        wd.navigate().to("//www.google.com/");
 
         // login before
     }
@@ -30,7 +30,7 @@ public class FirstTest {
     @AfterMethod
     public void  postCondition(){
       //  wd.quit();
-        wd.close();
+      //  wd.close();
 
 
     }
